@@ -42,4 +42,4 @@ Initial release.
 - Availability is expressed by match index. A clock time string is accepted in the
   config schema but is reserved for a future build; using a clock time currently
   returns a clear error rather than guessing a mapping.
-- Publishing to crates.io is pending. The crate is available from GitHub.
+- Published to crates.io: `cargo install scoutsched` (CLI) or `cargo add scoutsched` (library).

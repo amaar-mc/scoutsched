@@ -72,8 +72,8 @@ by weight with sane defaults.
 - Gates that must pass: `cargo fmt --all -- --check`, then
   `cargo clippy --all-targets -- -D warnings`, then `cargo test`, then
   `cargo build --release`.
-- Semantic versioning. Update `CHANGELOG.md`. Tag `vX.Y.Z` and cut a GitHub
-  release. Publishing to crates.io is pending.
+- Semantic versioning. Update `CHANGELOG.md`. Tag `vX.Y.Z`, cut a GitHub
+  release, and `cargo publish` to crates.io (published since v0.1.0).
 
 ## Style
 

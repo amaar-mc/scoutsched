@@ -76,10 +76,23 @@ and reports which soft objectives it relaxed; it approximates soft preference
 optimality rather than proving it. See `docs/architecture.md` for the reduction
 sketch and the full discussion.
 
-## Install and build
+## Install
 
-scoutsched is not yet published to crates.io (pending). Build from source with a
-recent stable Rust toolchain:
+scoutsched is published on [crates.io](https://crates.io/crates/scoutsched).
+
+Install the command-line tool:
+
+```sh
+cargo install scoutsched
+```
+
+Or use it as a library in another crate:
+
+```sh
+cargo add scoutsched
+```
+
+### Build from source
 
 ```sh
 git clone https://github.com/amaar-mc/scoutsched
