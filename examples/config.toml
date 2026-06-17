@@ -1,0 +1,75 @@
+# Example scoutsched configuration.
+#
+# Solve the bundled sample event with:
+#   scoutsched --matches-file examples/sample_matches.json --config examples/config.toml --format summary
+#
+# Every field has a default, so a minimal config is just a list of scout names.
+# The values below are spelled out to document what is available.
+
+[globals]
+# Each scout becomes expert on between min and max teams. The count scales up
+# automatically when there are more teams than the roster can otherwise cover, so
+# every team gets at least one expert.
+experts_per_scout_min = 2
+experts_per_scout_max = 3
+
+# Target fraction of a team's matches watched by one of its experts. This is a
+# soft target reported in the summary; broad coverage by anyone is the hard goal.
+primary_fraction = 0.8
+
+# Non expert watches per scout, for a baseline cross perspective.
+filler_quota = 1
+
+# Pit scouting slots per scout, placed only in matches where none of the scout's
+# expert teams play.
+pit_quota = 2
+
+# Minority of watches tagged qualitative, spread across each scout.
+qualitative_fraction = 0.25
+
+# Break rules: no more than this many consecutive active matches, and a forced
+# break is at least this many columns long.
+max_consecutive = 4
+min_break_length = 1
+
+# Bounded local search iteration cap. Higher costs time, never correctness.
+repair_iterations = 2000
+
+# Soft constraint weights. Higher means the objective is favored when objectives
+# conflict, and shortfalls are reported in descending weight order.
+[globals.weights]
+coverage = 1000.0
+quotas = 100.0
+qualitative = 10.0
+sparsity = 1.0
+break_match = 0.5
+
+# Eight scouts for the bundled twelve team sample event.
+
+[[scouts]]
+name = "Ada"
+
+[[scouts]]
+name = "Grace"
+
+[[scouts]]
+name = "Linus"
+
+[[scouts]]
+name = "Margaret"
+
+[[scouts]]
+name = "Dennis"
+
+[[scouts]]
+name = "Barbara"
+
+# Katherine and Dorothy requested aligned breaks, so the solver tries to rest them
+# together where it can without dropping coverage.
+[[scouts]]
+name = "Katherine"
+break_partner = "Dorothy"
+
+[[scouts]]
+name = "Dorothy"
+break_partner = "Katherine"

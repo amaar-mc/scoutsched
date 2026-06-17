@@ -1,0 +1,380 @@
+[
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc12",
+          "frc9",
+          "frc2"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc6",
+          "frc8",
+          "frc5"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 1,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc8",
+          "frc9",
+          "frc6"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc12",
+          "frc2",
+          "frc5"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 2,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc6",
+          "frc5",
+          "frc8"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc12",
+          "frc2",
+          "frc9"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 3,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc2",
+          "frc9",
+          "frc6"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc8",
+          "frc5",
+          "frc12"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 4,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc8",
+          "frc9",
+          "frc2"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc6",
+          "frc12",
+          "frc5"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 5,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc8",
+          "frc6",
+          "frc12"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc9",
+          "frc5",
+          "frc2"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 6,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc12",
+          "frc6",
+          "frc8"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc2",
+          "frc9",
+          "frc5"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 7,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc8",
+          "frc9",
+          "frc5"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc12",
+          "frc2",
+          "frc6"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 8,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc6",
+          "frc12",
+          "frc2"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc8",
+          "frc9",
+          "frc5"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 9,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc4",
+          "frc10",
+          "frc1"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc7",
+          "frc11",
+          "frc3"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 10,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc11",
+          "frc3",
+          "frc1"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc4",
+          "frc10",
+          "frc7"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 11,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc3",
+          "frc1",
+          "frc11"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc4",
+          "frc7",
+          "frc10"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 12,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc3",
+          "frc10",
+          "frc7"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc4",
+          "frc11",
+          "frc1"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 13,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc7",
+          "frc4",
+          "frc11"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc3",
+          "frc1",
+          "frc10"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 14,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc11",
+          "frc10",
+          "frc7"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc3",
+          "frc4",
+          "frc1"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 15,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc11",
+          "frc10",
+          "frc1"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc4",
+          "frc3",
+          "frc7"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 16,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc1",
+          "frc10",
+          "frc3"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc7",
+          "frc11",
+          "frc4"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 17,
+    "set_number": 1
+  },
+  {
+    "alliances": {
+      "blue": {
+        "team_keys": [
+          "frc4",
+          "frc3",
+          "frc1"
+        ]
+      },
+      "red": {
+        "team_keys": [
+          "frc10",
+          "frc11",
+          "frc7"
+        ]
+      }
+    },
+    "comp_level": "qm",
+    "match_number": 18,
+    "set_number": 1
+  }
+]
