@@ -1,0 +1,32 @@
+[package]
+name = "scoutsched"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Deterministic FRC scouting schedule generator: optimized per-team expert assignments, breaks, pit-scouting, and quant/qual tagging from a Blue Alliance event."
+license = "MIT"
+repository = "https://github.com/amaar-mc/scoutsched"
+homepage = "https://github.com/amaar-mc/scoutsched"
+readme = "README.md"
+authors = ["Amaar Chughtai <amaardevx@gmail.com>"]
+keywords = ["frc", "scouting", "scheduling", "robotics", "the-blue-alliance"]
+categories = ["command-line-utilities"]
+
+[lib]
+name = "scoutsched"
+path = "src/lib.rs"
+
+[[bin]]
+name = "scoutsched"
+path = "src/main.rs"
+
+[dependencies]
+ureq = "2.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.5", features = ["derive", "env"] }
+toml = "0.8"
+
+[profile.release]
+opt-level = 3
+lto = true
