@@ -1,5 +1,9 @@
 # scoutsched
 
+<p align="center">
+  <img src="assets/logo.png" alt="scoutsched logo" width="160">
+</p>
+
 A deterministic FRC scouting schedule generator. Given a Blue Alliance
 qualification schedule and a scout roster, scoutsched builds a complete scouting
 grid: who watches which team in each match, who is pit scouting, who is on break,
